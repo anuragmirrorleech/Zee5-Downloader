@@ -29,5 +29,5 @@ class Config(object):
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "")
     
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rename:rename@cluster0.f0vmafy.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://xofbrbld:FVl475QBPaJI_Zm1yFzupV6FO1h3fLfp@lucky.db.elephantsql.com/xofbrbld")
     
